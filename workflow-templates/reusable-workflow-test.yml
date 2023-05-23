@@ -3,7 +3,7 @@ name: Continuous Delivery ArgoCD
 on:
   push:
     branches:
-      - $default_branch
+      - $default-branch
 
 jobs:
   say-hi:
