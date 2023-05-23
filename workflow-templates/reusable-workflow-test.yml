@@ -1,0 +1,16 @@
+name: Continuous Delivery ArgoCD
+
+on:
+  push:
+    branches:
+      - $default_branch
+
+jobs:
+  say-hi:
+    name: Say Hi!
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo 'Say Hi!' 
+        run: |
+          echo "Say Hi!"
+ 
