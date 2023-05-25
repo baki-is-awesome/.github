@@ -1,0 +1,6 @@
+{
+  "name": "Say Hi! Starter Worfklow",
+  "description": "Starter Workflow test",
+  "iconName": "octicon rocket",
+  "categories": [ "deployment" ]
+}
